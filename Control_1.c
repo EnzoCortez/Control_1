@@ -12,18 +12,20 @@ En este ejemplo el número que interrumpe la lectura es el 0*/
 /*Se define la funcion suma*/
 
 
-int suma(int a,int res){
-    res=0;
+int suma(int a,int b){
+    b=0;
     a=0;
-    printf("Ingrese la serie de numeros enteros");
+    
     while (a>0)
     {
     scanf("%d",&a); 
-    res=res+a;
-    return res;
+    b=b+a;
+    return b;
     }  
 }
 
-int main(){
-    
+int main(int a,int b){
+    printf("Ingrese la serie de numeros enteros");
+    scanf("%d",&a);
+    printf("El resultado de su serie es;", suma(a,b));
 }
