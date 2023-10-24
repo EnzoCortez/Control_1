@@ -22,9 +22,9 @@ int main(){
         printf("Ingrese un número entero (0 para salir): ");
         scanf("%d", &num);
         total = suma(total, num);
-
     } while (num != 0);
-    printf("La suma total es: %d\n", total);
+    
+    printf("La suma total es: %d\n", total); /*Impresion de resultados*/
     return 0;
 }
 
